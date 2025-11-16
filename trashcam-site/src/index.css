@@ -1,0 +1,36 @@
+:root {
+  --tc-bg: #02050a;
+  --tc-bg-soft: #050814;
+  --tc-border: #1b2333;
+  --tc-accent: #5cffb7;
+  --tc-accent-soft: rgba(92, 255, 183, 0.15);
+  --tc-accent-strong: #c6ff5c;
+  --tc-text: #f5f7ff;
+  --tc-text-muted: #9ba3c3;
+  --tc-danger: #ff4b7a;
+  --tc-warning: #ffc857;
+  --tc-radius-lg: 18px;
+  --tc-radius-xl: 28px;
+  --tc-shadow-soft: 0 18px 55px rgba(0, 0, 0, 0.6);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Inter", sans-serif;
+  background: radial-gradient(circle at top, #0b1020 0, #02050a 55%, #000 100%);
+  color: var(--tc-text);
+}
